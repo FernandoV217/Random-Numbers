@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Random Numbers</title>
+</head>
+<body>
+
+    <div class="flex-column">
+
+        <header class="header">
+
+            <div class="wrap">
+                <h1 class="wrap__tittle">Random Numbers</h1>
+            </div>
+            
+        </header>
+    
+        <main class="wrap">
+    
+            <form class="form">
+    
+                <div class="form__fields">
+    
+                    <div class="fields__field">
+                        <label for="from">from:</label>
+                        <input type="number" id="from">
+                    </div>
+                    
+                    <div class="fields__field">
+                        <label for="to">to:</label>
+                        <input type="number" id="to">
+                    </div>
+                    
+                    <div class="fields__field">
+                        <label for="amount">amount:</label>
+                        <input type="number" id="amount">
+                    </div>     
+    
+                </div>
+    
+                <input class="button button--state-start" type="submit" value="START">
+                
+            </form>
+    
+            <div class="numbersWrapper">
+    
+                <div class="numbers">
+                    
+                </div>
+        
+                <input class="button button--state-clean remove" type="submit" value="CLEAN">
+    
+            </div>
+            
+    
+        </main>
+    
+        <div class="push"></div>
+    
+        <footer class="footer">
+            <p class="footer__rights no-margin">All rights reserved - Fernando Velázquez &copy;</p>
+        </footer>
+
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
